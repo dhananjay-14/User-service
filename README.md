@@ -2,7 +2,7 @@
 
 A **FastAPI** microservice for secure, scalable user management. Features include:
 - JWT authentication & role-based access control (`user`, `admin`, `superadmin`)
-- CRUD operations with paginated search (case-insensitive filters)
+- CRUD operations with paginated search and a search endpoint with multiple simultaneous filters support
 - Rate limiting (`slowapi`)
 - Real-time WebSocket subscriptions for user changes
 - Containerized with Docker & Docker Compose
